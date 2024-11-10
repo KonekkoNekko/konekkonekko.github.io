@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 import projectcomingsoon from "../assets/projects/project-comingsoon.jpg";
 
 export const HERO_CONTENT = `Fresh Graduate in Information Systems from Telkom University | Android Learning Path Graduate from Bangkit Academy 2023 Batch 2 | Former Assistant Lecturer at Telkom University | Full Stack Developer | Android Developer`;
@@ -115,11 +116,12 @@ export const PROJECTS = [
   },
   {
     title: "Cari Workspace!",
-    image: projectcomingsoon,
-    description: "Coming soon.",
+    image: project5,
+    description:
+      "A mobile application for finding workspaces to rent, where users can view office details, book office rentals, and proceed to payment checkout. Note that all functionalities are still static.",
     technologies: ["React Native", "CSS"],
     designs: [],
-    url_repo: "https://github.com/KonekkoNekko/",
+    url_repo: "https://github.com/KonekkoNekko/bwa-cariworkspace",
   },
   {
     title: "SimplePOS",
