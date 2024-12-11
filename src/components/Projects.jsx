@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { PROJECTS } from "../constants";
 import { GrGithub } from "react-icons/gr";
+import { CgEnter } from "react-icons/cg";
 
 const Projects = () => {
   return (
@@ -47,6 +48,17 @@ const Projects = () => {
                   Github Repository
                 </span>
               </a>
+              {project.deploy_url && (
+                <a
+                  href={project.deploy_url}
+                  className="mr-2 mt-2 inline-block rounded bg-green-900 px-2 py-1 text-sm font-medium text-white-500"
+                >
+                  <span className="flex items-center">
+                    <CgEnter className="mr-2" />
+                    Access Here
+                  </span>
+                </a>
+              )}
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}

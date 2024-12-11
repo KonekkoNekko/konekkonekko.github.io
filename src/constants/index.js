@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpg";
 import projectcomingsoon from "../assets/projects/project-comingsoon.jpg";
 
 export const HERO_CONTENT = `Fresh Graduate in Information Systems from Telkom University | Android Learning Path Graduate from Bangkit Academy 2023 Batch 2 | Former Assistant Lecturer at Telkom University | Full Stack Developer | Android Developer`;
@@ -57,6 +60,63 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Insomics Revamp",
+    image: project7,
+    description:
+      "INSOMICS is a manga reading application designed for nighttime use. This project is a revamped version of a major assignment for the Mobile Application Development course using React Native. Enhanced with React Native 0.76.3 and Expo 52.0.11, styled with NativeWind 4.1.23, and API calls handled using axios 1.7.8, it was finalized on December 6, 2024. Upcoming features: integration of AsyncStorage to save reading history and favorite reads.",
+    technologies: [
+      "React Native",
+      "Typescript",
+      "NativeWind",
+      "Expo",
+      "Expo Router",
+      "React Navigation",
+      "Axios",
+      "RapidAPI Usage",
+    ],
+    designs: [],
+    url_repo: "https://github.com/KonekkoNekko/insomics-revamp",
+    deploy_url: "https://drive.google.com/file/d/1Ot3kF_NoifzyZpXEmNSJJeeKaymkAD2a/view?usp=sharing",
+  },
+  {
+    title: "Simple Meditation",
+    image: project8,
+    description:
+      "This project is learning-based project from freeCodeCamp tutorial. A React Native Meditation App using Expo (including Expo Router), Typescript, NativeWind v2, React Context and Modal.",
+    technologies: [
+      "React Native",
+      "Typescript",
+      "NativeWind",
+      "Expo",
+      "Expo Router",
+      "Expo AV",
+      "React Navigation",
+      "Axios",
+      "React Context",
+      "React Modal",
+    ],
+    designs: [],
+    url_repo: "https://github.com/KonekkoNekko/simple-meditation-RN",
+    deploy_url: "https://drive.google.com/file/d/1ZGCAN4cLz_P26eacldbms7wkhfLvLSOo/view?usp=sharing",
+  },
+  {
+    title: "Youtube Clone",
+    image: project6,
+    description:
+      "This project is a cloning from Youtube Application, limited to the Trending Screen only. Using Expo, Typescript, and NativeWindCSS v4.",
+    technologies: [
+      "React Native",
+      "Typescript",
+      "NativeWind",
+      "Expo",
+      "Axios",
+      "RapidAPI Usage",
+    ],
+    designs: [],
+    url_repo: "https://github.com/KonekkoNekko/youtube-clone-RN",
+    deploy_url: "https://drive.google.com/file/d/1hAex3kWGsGCN85y8FRoAZh74f2dMULgw/view?usp=sharing",
+  },
+  {
     title: "StockMobile",
     image: project1,
     description:
@@ -71,6 +131,7 @@ export const PROJECTS = [
     ],
     designs: ["MVVM", "Repository Pattern"],
     url_repo: "https://github.com/KonekkoNekko/StockMobile",
+    deploy_url: "",
   },
   {
     title: "NotesApp",
@@ -80,6 +141,7 @@ export const PROJECTS = [
     technologies: ["React Native", "AsyncStorage", "Firebase", "GluestackUI"],
     designs: ["OOP"],
     url_repo: "https://github.com/sabillahsakti/NoteApp",
+    deploy_url: "",
   },
   {
     title: "GinsengStrip",
@@ -113,6 +175,7 @@ export const PROJECTS = [
     ],
     designs: ["MVC", "Service & Repository Pattern"],
     url_repo: "https://github.com/KonekkoNekko/",
+    deploy_url: "",
   },
   {
     title: "Cari Workspace!",
@@ -122,6 +185,7 @@ export const PROJECTS = [
     technologies: ["React Native", "CSS"],
     designs: [],
     url_repo: "https://github.com/KonekkoNekko/bwa-cariworkspace",
+    deploy_url: "https://drive.google.com/file/d/1mrWZjopTjZ0wc-LrUvjMXVC-S-Kcs_rt/view?usp=sharing",
   },
   {
     title: "SimplePOS",
@@ -130,6 +194,7 @@ export const PROJECTS = [
     technologies: ["Kotlin", "Jetpack Compose", "RoomDB", "MLKit"],
     designs: ["MVVM", "Repository Pattern"],
     url_repo: "https://github.com/KonekkoNekko/",
+    deploy_url: "",
   },
 ];
 
